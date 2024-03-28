@@ -109,8 +109,11 @@
   - **Description:** Developed a full-fledged video-streaming platform using Django, Cloudinary, PostgreSQL, Docker, CircleCI, HTML, and CSS. Leveraged Django's robust framework for backend development and integrated Cloudinary for efficient media management. Utilized PostgreSQL for scalable database management. Implemented features such as user authentication, user-follow functionality, video upload capability, and video rating and critique system. Incorporated Docker for containerization, CircleCI for continuous integration, and Heroku for seamless deployment, ensuring a smooth and reliable development workflow. Additionally, crafted the frontend interface with HTML and CSS to provide an engaging user experience.
   - **GitHub Repo:** [Video streaming evaluating platform](https://github.com/Gavin-Humphrey/filmjunkiez)
   - **Tech Stack:** ![Badge Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Badge Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white) ![Badge JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Badge HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![Badge CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) ![Badge Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Badge Cloudinary](https://img.shields.io/badge/Cloudinary-013243?style=flat-square&logo=cloudinary&logoColor=white) ![Badge PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white) ![Badge CircleCI](https://img.shields.io/badge/CircleCI-343434?style=flat-square&logo=circleci&logoColor=white) ![Badge Heroku](https://img.shields.io/badge/Heroku-430098?style=flat-square&logo=heroku&logoColor=white)
+
 </details>
+
 <br>
+
 <details>
 <summary><strong>Other Projects</strong></summary>
 
@@ -128,8 +131,8 @@
   - **Description:** This project is about creating an application that allows you to create the structure of a chess tournament, and to add players to a database. The program uses the Swiss tournament algorithm to calculate the rotation of players in order to have balanced matches and to avoid the repetition of matches.
   - **GitHub Repo:** [Chess Tournament Management Application](https://github.com/Gavin-Humphrey/Project_4_2022_Chess_Tournament)
   - **Tech Stack:** ![Badge Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Badge HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![Badge CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-</details>
 
+</details>
 
 
 ## 📊 **Github Stats**
