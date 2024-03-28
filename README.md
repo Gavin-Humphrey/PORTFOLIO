@@ -103,7 +103,7 @@
 
 
 
-Personal Projects<br>
+<summary>**Personal Projects**</summary><br>
 
 - <strong>Video streaming evaluating platform</strong><br>
 
