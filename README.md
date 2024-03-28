@@ -1,12 +1,15 @@
 ![Gavin Humphrey Github Barner](./img/IMG_7592.jpg)
 
----
 
 <br>
 
 # 👋 **Salut, je suis Gavin Humphrey**
 
-👨🏾‍🦰 Je suis un passionné de développement web Python junior avec un vif intérêt pour la création d'applications web robustes et évolutives. J'ai une solide expérience en génie logiciel et j'apprécie résoudre des problèmes complexes grâce à des solutions de code élégantes.
+👨🏾‍🦰 ***Je suis un passionné de développement web Python junior avec un vif intérêt pour la création d'applications web robustes et évolutives. J'ai une solide expérience en génie logiciel et j'apprécie résoudre des problèmes complexes grâce à des solutions de code élégantes.***
+
+---
+
+<br>
 
 ## 🤯 **Compétences**
 
@@ -19,7 +22,7 @@
 - Contrôle de version : [![Badge Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)](https://git-scm.com/)
 - Autres outils : [![Badge Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)](https://www.docker.com/) [![Badge AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)](https://aws.amazon.com/) [![Badge Heroku](https://img.shields.io/badge/Heroku-430098?style=flat-square&logo=heroku&logoColor=white)](https://www.heroku.com/) [![Badge CircleCI](https://img.shields.io/badge/CircleCI-343434?style=flat-square&logo=circleci&logoColor=white)](https://circleci.com/) [![Badge Cloudinary](https://img.shields.io/badge/Cloudinary-013243?style=flat-square&logo=cloudinary&logoColor=white)](https://cloudinary.com/) [![Badge Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white)](https://cloud.google.com/) [![Badge Sketch](https://img.shields.io/badge/Sketch-F7B500?style=flat-square&logo=sketch&logoColor=white)](https://www.sketch.com/) [![Postman Badge](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)](https://www.postman.com/)
   
----
+
 
 
 
@@ -89,8 +92,10 @@
 
 # 👋 **Hi, I’m Gavin Humphrey**
 
-👨🏾‍🦰 I'm a passionate junior Python web developer with a keen interest in building robust and scalable web applications. I have a strong background in software engineering and enjoy solving complex problems through elegant code solutions.
+👨🏾‍🦰 ***I'm a passionate junior Python web developer with a keen interest in building robust and scalable web applications. I have a strong background in software engineering and enjoy solving complex problems through elegant code solutions.***
 
+---
+<br>
 
 ## 🤯 **Skills**
 
@@ -103,7 +108,6 @@
 - Version Control: [![Git Badge](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)](https://git-scm.com/)
 - Other Tools: [![Docker Badge](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)](https://www.docker.com/) [![AWS Badge](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)](https://aws.amazon.com/) [![Heroku Badge](https://img.shields.io/badge/Heroku-430098?style=flat-square&logo=heroku&logoColor=white)](https://www.heroku.com/) [![CircleCI Badge](https://img.shields.io/badge/CircleCI-343434?style=flat-square&logo=circleci&logoColor=white)](https://circleci.com/) [![Cloudinary Badge](https://img.shields.io/badge/Cloudinary-013243?style=flat-square&logo=cloudinary&logoColor=white)](https://cloudinary.com/) [![Google Cloud Badge](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white)](https://cloud.google.com/) [![Sketch Badge](https://img.shields.io/badge/Sketch-F7B500?style=flat-square&logo=sketch&logoColor=white)](https://www.sketch.com/) [![Postman Badge](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)](https://www.postman.com/)
   
----
 
 
 
