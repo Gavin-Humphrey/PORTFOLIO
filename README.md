@@ -31,7 +31,7 @@
 
 
 <details>
-<summary><strong>Autres Projets :</strong></summary>
+<summary><strong>Autres Projets</strong></summary>
 
 - **Projet 1 : API de Plateforme de Gestion d'Événements**
 
@@ -111,8 +111,8 @@
   - **Tech Stack:** [![Badge Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/) [![Badge Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)](https://www.djangoproject.com/) [![Badge JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/fr/docs/Web/JavaScript) [![Badge HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/fr/docs/Web/Guide/HTML/HTML5) [![Badge CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://developer.mozilla.org/fr/docs/Web/CSS) [![Badge Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)](https://www.docker.com/) [![Badge Cloudinary](https://img.shields.io/badge/Cloudinary-013243?style=flat-square&logo=cloudinary&logoColor=white)](https://cloudinary.com/) [![Badge PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)](https://www.postgresql.org/) [![Badge CircleCI](https://img.shields.io/badge/CircleCI-343434?style=flat-square&logo=circleci&logoColor=white)](https://circleci.com/) [![Badge Heroku](https://img.shields.io/badge/Heroku-430098?style=flat-square&logo=heroku&logoColor=white)](https://www.heroku.com/)
 </details>
 
-
-<summary><strong> Other Projects:</strong></summary>
+<details>
+<summary><strong>Other Projects</strong></summary>
 
 - **Project 1: Event Management Platform API**
 
