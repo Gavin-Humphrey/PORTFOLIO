@@ -25,9 +25,9 @@
 
 - <strong>Plateforme d'évaluation de diffusion en continu vidéo</strong>
 
-  - <strong>Description :</strong> Développé une plateforme de diffusion vidéo complète utilisant Django, Cloudinary, PostgreSQL, Docker, CircleCI, HTML et CSS. A exploité le framework robuste de Django pour le développement backend et intégré Cloudinary pour une gestion efficace des médias. Utilisé PostgreSQL pour la gestion évolutive de la base de données. Implémenté des fonctionnalités telles que l'authentification utilisateur, la fonctionnalité de suivi d'utilisateur, la possibilité de télécharger des vidéos et un système de notation et de critique vidéo. Incorporé Docker pour la conteneurisation, CircleCI pour l'intégration continue et Heroku pour le déploiement transparent, garantissant un flux de travail de développement fluide et fiable. De plus, a conçu l'interface frontend avec HTML et CSS pour offrir une expérience utilisateur engageante.<br>
-  - <strong>GitHub Repo :</strong> [Plateforme d'évaluation de diffusion en continu vidéo](https://github.com/Gavin-Humphrey/filmjunkiez)<br>
-  - <strong>Stack Technique :</strong> [![Badge Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/) [![Badge Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)](https://www.djangoproject.com/) [![Badge JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/fr/docs/Web/JavaScript) [![Badge HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/fr/docs/Web/Guide/HTML/HTML5) [![Badge CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://developer.mozilla.org/fr/docs/Web/CSS) [![Badge Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)](https://www.docker.com/) [![Badge Cloudinary](https://img.shields.io/badge/Cloudinary-013243?style=flat-square&logo=cloudinary&logoColor=white)](https://cloudinary.com/) [![Badge PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)](https://www.postgresql.org/) [![Badge CircleCI](https://img.shields.io/badge/CircleCI-343434?style=flat-square&logo=circleci&logoColor=white)](https://circleci.com/) [![Badge Heroku](https://img.shields.io/badge/Heroku-430098?style=flat-square&logo=heroku&logoColor=white)](https://www.heroku.com/) 
+- <strong>Description :</strong> Développé une plateforme de diffusion vidéo complète utilisant Django, Cloudinary, PostgreSQL, Docker, CircleCI, HTML et CSS. A exploité le framework robuste de Django pour le développement backend et intégré Cloudinary pour une gestion efficace des médias. Utilisé PostgreSQL pour la gestion évolutive de la base de données. Implémenté des fonctionnalités telles que l'authentification utilisateur, la fonctionnalité de suivi d'utilisateur, la possibilité de télécharger des vidéos et un système de notation et de critique vidéo. Incorporé Docker pour la conteneurisation, CircleCI pour l'intégration continue et Heroku pour le déploiement transparent, garantissant un flux de travail de développement fluide et fiable. De plus, a conçu l'interface frontend avec HTML et CSS pour offrir une expérience utilisateur engageante.<br>
+- <strong>GitHub Repo :</strong> [Plateforme d'évaluation de diffusion en continu vidéo](https://github.com/Gavin-Humphrey/filmjunkiez)<br>
+- <strong>Stack Technique :</strong> [![Badge Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/) [![Badge Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)](https://www.djangoproject.com/) [![Badge JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/fr/docs/Web/JavaScript) [![Badge HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/fr/docs/Web/Guide/HTML/HTML5) [![Badge CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://developer.mozilla.org/fr/docs/Web/CSS) [![Badge Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)](https://www.docker.com/) [![Badge Cloudinary](https://img.shields.io/badge/Cloudinary-013243?style=flat-square&logo=cloudinary&logoColor=white)](https://cloudinary.com/) [![Badge PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)](https://www.postgresql.org/) [![Badge CircleCI](https://img.shields.io/badge/CircleCI-343434?style=flat-square&logo=circleci&logoColor=white)](https://circleci.com/) [![Badge Heroku](https://img.shields.io/badge/Heroku-430098?style=flat-square&logo=heroku&logoColor=white)](https://www.heroku.com/) 
 </details>
 
 
@@ -36,32 +36,32 @@
 
 - <strong>Projet 1 : API de Plateforme de Gestion d'Événements</strong><br>
 
-  - <strong>Description :</strong> Il s'agit d'une API créée avec Django pour une entreprise événementielle fictive, EpicEvents. L'application permet de gérer les clients, les contrats et les événements via une API REST et une interface d'administration.<br>
-  - <strong>GitHub Repo :</strong> [API Evenements Epiques](https://github.com/Gavin-Humphrey/P12-EpicEvents)<br>
-  - <strong>Stack Technique :</strong> [![Badge Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/) [![REST API](https://img.shields.io/badge/API-REST-brightgreen.svg)](http://link_to_your_rest_api_documentation) [![Postman Badge](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)](https://www.postman.com/)<br>
+- <strong>Description :</strong> Il s'agit d'une API créée avec Django pour une entreprise événementielle fictive, EpicEvents. L'application permet de gérer les clients, les contrats et les événements via une API REST et une interface d'administration.<br>
+- <strong>GitHub Repo :</strong> [API Evenements Epiques](https://github.com/Gavin-Humphrey/P12-EpicEvents)<br>
+- <strong>Stack Technique :</strong> [![Badge Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/) [![REST API](https://img.shields.io/badge/API-REST-brightgreen.svg)](http://link_to_your_rest_api_documentation) [![Postman Badge](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)](https://www.postman.com/)<br>
 
 - <strong>Projet 2 : SoftDesk</strong><br>
 
-  - <strong>Description :</strong> Il s'agit d'une API créée avec Django pour une entreprise fictive, SoftDesk. L'application permet de suivre et de gérer des problèmes techniques (système de suivi des problèmes).<br>
-  - <strong>GitHub Repo :</strong> [SoftDesk](https://github.com/Gavin-Humphrey/P10-SoftDesk)<br>
-  - <strong>Stack Technique :</strong> [![Badge Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/) [![Badge Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)](https://www.djangoproject.com/) [![Django REST Framework](https://img.shields.io/badge/Django%20REST%20Framework-3.x-brightgreen.svg)](http://link_to_your_django_rest_framework)<br>
+- <strong>Description :</strong> Il s'agit d'une API créée avec Django pour une entreprise fictive, SoftDesk. L'application permet de suivre et de gérer des problèmes techniques (système de suivi des problèmes).<br>
+- <strong>GitHub Repo :</strong> [SoftDesk](https://github.com/Gavin-Humphrey/P10-SoftDesk)<br>
+- <strong>Stack Technique :</strong> [![Badge Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/) [![Badge Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)](https://www.djangoproject.com/) [![Django REST Framework](https://img.shields.io/badge/Django%20REST%20Framework-3.x-brightgreen.svg)](http://link_to_your_django_rest_framework)<br>
 
 
 - <strong>Projet 3 : Application de Gestion de Tournois d'Échecs</strong><br>
 
-  - <strong>Description :</strong> Ce projet consiste à créer une application qui vous permet de créer la structure d'un tournoi d'échecs et d'ajouter des joueurs à une base de données. Le programme utilise l'algorithme de tournoi suisse pour calculer la rotation des joueurs afin d'avoir des matches équilibrés et d'éviter la répétition des matches.<br>
-  
-  - Cette application est écrite dans le pattern de conception MVC - Models - Views - Controllers, et les données sont stockées dans la bibliothèque de base de données TinyDB.<br>
+- <strong>Description :</strong> Ce projet consiste à créer une application qui vous permet de créer la structure d'un tournoi d'échecs et d'ajouter des joueurs à une base de données. Le programme utilise l'algorithme de tournoi suisse pour calculer la rotation des joueurs afin d'avoir des matches équilibrés et d'éviter la répétition des matches.<br>
 
-  - Elle vous permet de :<br>
+- Cette application est écrite dans le pattern de conception MVC - Models - Views - Controllers, et les données sont stockées dans la bibliothèque de base de données TinyDB.<br>
 
-    - Créer et enregistrer des joueurs.<br>
-    - Mettre à jour les scores des joueurs.<br>
-    - Créer et enregistrer des tournois.<br>
-    - Organiser des tournois.<br>
-    - Revenir à un tournoi inachevé.<br>
-  - <strong>GitHub Repo :</strong> [Application Gestion Tournois Echecs](https://github.com/Gavin-Humphrey/Project_4_2022_Chess_Tournament)<br>
-  - <strong>Stack Technique :</strong> [![Badge Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/) [![Badge HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/fr/docs/Web/Guide/HTML/HTML5) [![Badge CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://developer.mozilla.org/fr/docs/Web/CSS)
+- Elle vous permet de :<br>
+
+- Créer et enregistrer des joueurs.<br>
+- Mettre à jour les scores des joueurs.<br>
+- Créer et enregistrer des tournois.<br>
+- Organiser des tournois.<br>
+- Revenir à un tournoi inachevé.<br>
+- <strong>GitHub Repo :</strong> [Application Gestion Tournois Echecs](https://github.com/Gavin-Humphrey/Project_4_2022_Chess_Tournament)<br>
+- <strong>Stack Technique :</strong> [![Badge Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/) [![Badge HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/fr/docs/Web/Guide/HTML/HTML5) [![Badge CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://developer.mozilla.org/fr/docs/Web/CSS)
 </details>
 
 ## 📊 **Statistiques Github**
