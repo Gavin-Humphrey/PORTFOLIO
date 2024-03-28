@@ -113,7 +113,7 @@
 </details>
 <br>
 
-<<strong>Other Projects</strong>
+<strong>Other Projects</strong>
 
 - <strong>Project 1: Event Management Platform API</strong><br>
 
