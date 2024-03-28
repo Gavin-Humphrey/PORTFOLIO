@@ -113,6 +113,7 @@
 </details>
 <br>
 
+<details>
 <strong>Other Projects</strong>
 
 - <strong>Project 1: Event Management Platform API</strong><br>
@@ -142,7 +143,7 @@
 - Resume an unfinished tournament.<br>
 - <strong>GitHub Repo:</strong> [Chess Tournament Management Application](https://github.com/Gavin-Humphrey/Project_4_2022_Chess_Tournament)<br>
 - <strong>Tech Stack:</strong> [![Badge Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/) [![Badge HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/fr/docs/Web/Guide/HTML/HTML5) [![Badge CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://developer.mozilla.org/fr/docs/Web/CSS)
-
+</details>
 
 
 ## 📊 **Github Stats**
