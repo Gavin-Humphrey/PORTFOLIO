@@ -27,10 +27,8 @@
 
 
 <details>
-  <summary>Click Here</summary>
+ <summary><h2>Projets Personnels</h2></summary>
 
-  ## Projets Personnels
-  
   - <strong>Plateforme d'évaluation de diffusion en continu vidéo</strong>
 
     - <strong>Description :</strong> Développé une plateforme de diffusion vidéo complète utilisant Django, Cloudinary, PostgreSQL, Docker, CircleCI, HTML et CSS. A exploité le framework robuste de Django pour le développement backend et intégré Cloudinary pour une gestion efficace des médias. Utilisé PostgreSQL pour la gestion évolutive de la base de données. Implémenté des fonctionnalités telles que l'authentification utilisateur, la fonctionnalité de suivi d'utilisateur, la possibilité de télécharger des vidéos et un système de notation et de critique vidéo. Incorporé Docker pour la conteneurisation, CircleCI pour l'intégration continue et Heroku pour le déploiement transparent, garantissant un flux de travail de développement fluide et fiable. De plus, a conçu l'interface frontend avec HTML et CSS pour offrir une expérience utilisateur engageante.<br>
