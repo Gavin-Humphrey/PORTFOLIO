@@ -1,9 +1,11 @@
-![Gavin Humphrey Github Barner](./img/IMG_7592.jpg)
+<div align= center>
+  <img src="img/portfolio-banner.gif" alt="profile-banner" width="10000" height="400"/>
+</div>
 
 
 <br>
 
-# 👋 **Salut, je suis Gavin Humphrey**
+# **Je suis Gavin Humphrey**
 
 👨🏾‍🦰 ***Je suis un passionné de développement web Python junior avec un vif intérêt pour la création d'applications web robustes et évolutives. J'ai une solide expérience en génie logiciel et j'apprécie résoudre des problèmes complexes grâce à des solutions de code élégantes.***
 
@@ -90,9 +92,9 @@
 <br>
 
 
-# 👋 **Hi, I’m Gavin Humphrey**
+# **I am Gavin Humphrey**
 
-👨🏾‍🦰 ***I'm a passionate junior Python web developer with a keen interest in building robust and scalable web applications. I have a strong background in software engineering and enjoy solving complex problems through elegant code solutions.***
+👨🏾‍🦰 ***I am a passionate junior Python web developer with a keen interest in building robust and scalable web applications. I have a strong background in software engineering and enjoy solving complex problems through elegant code solutions.***
 
 ---
 <br>
