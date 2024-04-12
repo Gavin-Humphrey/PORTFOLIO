@@ -119,7 +119,7 @@
 
 <details>
 
-<summary><strong>Personal Projects</strong></summary>
+<summary>Personal Projects</summary>
 
   - **E-commerce/Service Platform for Artists** (In Development)
 
@@ -138,7 +138,7 @@
 
 <details>
 
-<summary><strong>Other Projects</strong></summary>
+<summary>Other Projects</summary>
 
   - <strong>Project 1: Event Management Platform API</strong><br>
 
