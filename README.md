@@ -9,7 +9,6 @@
 
 👨🏾‍🦰 ***Je suis un passionné de développement web Python junior avec un vif intérêt pour la création d'applications web robustes et évolutives. J'ai une solide expérience en génie logiciel et j'apprécie résoudre des problèmes complexes grâce à des solutions de code élégantes.***
 
----
 
 <br>
 
@@ -26,8 +25,8 @@
   
 
 <br>
-
-<summary><h2>Projets Personnels</h2></summary>
+<details>
+<summary><strong>Projets Personnels</strong></summary>
 
   - **Plateforme E-commerce/Service pour Artistes** (En cours de développement)
 
@@ -40,12 +39,11 @@
     - <strong>Description :</strong> Développé une plateforme de diffusion vidéo complète utilisant Django, Cloudinary, PostgreSQL, Docker, CircleCI, HTML et CSS. A exploité le framework robuste de Django pour le développement backend et intégré Cloudinary pour une gestion efficace des médias. Utilisé PostgreSQL pour la gestion évolutive de la base de données. Implémenté des fonctionnalités telles que l'authentification utilisateur, la fonctionnalité de suivi d'utilisateur, la possibilité de télécharger des vidéos et un système de notation et de critique vidéo. Incorporé Docker pour la conteneurisation, CircleCI pour l'intégration continue et Heroku pour le déploiement transparent, garantissant un flux de travail de développement fluide et fiable. De plus, a conçu l'interface frontend avec HTML et CSS pour offrir une expérience utilisateur engageante.<br>
     - <strong>GitHub Repo :</strong> [Plateforme d'évaluation de diffusion en continu vidéo](https://github.com/Gavin-Humphrey/filmjunkiez)<br>
     - <strong>Stack Technique :</strong> [![Badge Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/) [![Badge Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)](https://www.djangoproject.com/) [![Badge JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/fr/docs/Web/JavaScript) [![Badge HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/fr/docs/Web/Guide/HTML/HTML5) [![Badge CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://developer.mozilla.org/fr/docs/Web/CSS) [![Badge Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)](https://www.docker.com/) [![Badge Cloudinary](https://img.shields.io/badge/Cloudinary-013243?style=flat-square&logo=cloudinary&logoColor=white)](https://cloudinary.com/) [![Badge PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)](https://www.postgresql.org/) [![Badge CircleCI](https://img.shields.io/badge/CircleCI-343434?style=flat-square&logo=circleci&logoColor=white)](https://circleci.com/) [![Badge Heroku](https://img.shields.io/badge/Heroku-430098?style=flat-square&logo=heroku&logoColor=white)](https://www.heroku.com/)
-  
-
-<br>
+</details>
 
 
-<summary><h2>Autres Projets</h2></summary>
+<details>
+<summary><strong>Autres Projets</strong></summary>
 
   - <strong>Projet 1 : API de Plateforme de Gestion d'Événements</strong><br>
 
@@ -75,8 +73,8 @@
         - Revenir à un tournoi inachevé.<br>
     - <strong>GitHub Repo :</strong> [Application Gestion Tournois Echecs](https://github.com/Gavin-Humphrey/Project_4_2022_Chess_Tournament)<br>
     - <strong>Stack Technique :</strong> [![Badge Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/) [![Badge HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/fr/docs/Web/Guide/HTML/HTML5) [![Badge CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://developer.mozilla.org/fr/docs/Web/CSS)
+</details>
 
-<br>
 
 ## 📊 **Statistiques Github**
 
@@ -92,7 +90,6 @@
 
 **gavin.humphrey.pro@gmail.com**
 
----
 <br>
 <br>
 <br>
@@ -102,7 +99,6 @@
 
 👨🏾‍🦰 ***I am a passionate junior Python web developer with a keen interest in building robust and scalable web applications. I have a strong background in software engineering and enjoy solving complex problems through elegant code solutions.***
 
----
 <br>
 
 ## 🤯 **Skills**
@@ -115,10 +111,10 @@
 - Databases: [![PostgreSQL Badge](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)](https://www.postgresql.org/) [![MySQL Badge](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)](https://www.mysql.com/) [![SQLite Badge](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)](https://www.sqlite.org/) [![MongoDB Badge](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
 - Version Control: [![Git Badge](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)](https://git-scm.com/)
 - Other Tools: [![Docker Badge](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)](https://www.docker.com/) [![AWS Badge](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)](https://aws.amazon.com/) [![Heroku Badge](https://img.shields.io/badge/Heroku-430098?style=flat-square&logo=heroku&logoColor=white)](https://www.heroku.com/) [![CircleCI Badge](https://img.shields.io/badge/CircleCI-343434?style=flat-square&logo=circleci&logoColor=white)](https://circleci.com/) [![Cloudinary Badge](https://img.shields.io/badge/Cloudinary-013243?style=flat-square&logo=cloudinary&logoColor=white)](https://cloudinary.com/) [![Google Cloud Badge](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white)](https://cloud.google.com/) [![Sketch Badge](https://img.shields.io/badge/Sketch-F7B500?style=flat-square&logo=sketch&logoColor=white)](https://www.sketch.com/) [![Postman Badge](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)](https://www.postman.com/)
-  
-<br>
+ 
 
-<summary><strong><h2>Personal Projects</h2></strong></summary>
+<details>
+<summary><strong>Personal Projects</strong></summary>
 
   - **E-commerce/Service Platform for Artists** (In Development)
 
@@ -131,10 +127,11 @@
     -  <strong>Description:</strong> Developed a full-fledged video-streaming platform using Django, Cloudinary, PostgreSQL, Docker, CircleCI, HTML, and CSS. Leveraged Django's robust framework for backend development and integrated Cloudinary for efficient media management. Utilized PostgreSQL for scalable database management. Implemented features such as user authentication, user-follow functionality, video upload capability, and video rating and critique system. Incorporated Docker for containerization, CircleCI for continuous integration, and Heroku for seamless deployment, ensuring a smooth and reliable development workflow. Additionally, crafted the frontend interface with HTML and CSS to provide an engaging user experience.<br>
     - <strong>GitHub Repo:</strong> [Video streaming evaluating platform](https://github.com/Gavin-Humphrey/filmjunkiez)<br>
     - <strong>Tech Stack:</strong> [![Badge Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/) [![Badge Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)](https://www.djangoproject.com/) [![Badge JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/fr/docs/Web/JavaScript) [![Badge HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/fr/docs/Web/Guide/HTML/HTML5) [![Badge CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://developer.mozilla.org/fr/docs/Web/CSS) [![Badge Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)](https://www.docker.com/) [![Badge Cloudinary](https://img.shields.io/badge/Cloudinary-013243?style=flat-square&logo=cloudinary&logoColor=white)](https://cloudinary.com/) [![Badge PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)](https://www.postgresql.org/) [![Badge CircleCI](https://img.shields.io/badge/CircleCI-343434?style=flat-square&logo=circleci&logoColor=white)](https://circleci.com/) [![Badge Heroku](https://img.shields.io/badge/Heroku-430098?style=flat-square&logo=heroku&logoColor=white)](https://www.heroku.com/)
+</details>  
 
-<br>
 
-<summary><strong><h2>Other Projects</h2></strong></summary>
+<details>
+<summary><strong>Other Projects</strong></summary>
 
   - <strong>Project 1: Event Management Platform API</strong><br>
 
@@ -163,6 +160,7 @@
         - Resume an unfinished tournament.<br>
     - <strong>GitHub Repo:</strong> [Chess Tournament Management Application](https://github.com/Gavin-Humphrey/Project_4_2022_Chess_Tournament)<br>
     - <strong>Tech Stack:</strong> [![Badge Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/) [![Badge HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/fr/docs/Web/Guide/HTML/HTML5) [![Badge CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://developer.mozilla.org/fr/docs/Web/CSS)
+</details>
 
 <br>
 
