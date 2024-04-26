@@ -7,7 +7,7 @@
 
 # **Salut👋🏽, Je suis Gavin Humphrey !**
 
-👨🏾‍🦰 ***Je suis un passionné de développement web Python junior avec un vif intérêt pour la création d'applications web robustes et évolutives. J'ai une solide expérience en génie logiciel et j'apprécie résoudre des problèmes complexes grâce à des solutions de code élégantes.***
+👨🏾‍🦰 ***Je suis un passionné de développement web Python avec un vif intérêt pour la création d'applications web robustes et évolutives. J'ai une solide expérience en génie logiciel et j'apprécie résoudre des problèmes complexes grâce à des solutions de code élégantes.***
 
 
 
@@ -94,7 +94,7 @@
 
 # **Hi👋🏽, I am Gavin Humphrey!**
 
-👨🏾‍🦰 ***I am a passionate junior Python web developer with a keen interest in building robust and scalable web applications. I have a strong background in software engineering and enjoy solving complex problems through elegant code solutions.***
+👨🏾‍🦰 ***I am a passionate Python web developer with a keen interest in building robust and scalable web applications. I have a strong background in software engineering and enjoy solving complex problems through elegant code solutions.***
 
 
 ## 🤯 **Skills**
