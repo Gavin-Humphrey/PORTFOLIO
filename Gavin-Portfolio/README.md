@@ -21,10 +21,10 @@
 <details>
 <summary><strong>Projets Personnels</strong></summary>
 
-- **Plateforme E-commerce/Service pour Artistes** (En cours de développement)
+- **Plateforme E-commerce/Service pour Artistes** (Déployé!)
 
   - **Description :** Actuellement en développement, une plateforme e-commerce/service pour les artistes qui souhaitent exposer et vendre leurs œuvres d'art, et/ou fournir des arts personnalisés directement à leurs clients virtuellement. La pile technologique comprend Python, Django, JavaScript, HTML, CSS, PostgreSQL, Docker, CircleCI, Cloudinary, AWS, Stripe, Square, Zoom
-  - **GitHub Repo :** Bientôt !
+  - **GitHub Repo :** [Galerie d'Artistes](https://github.com/Gavin-Humphrey/liveartcorner)
   - **Tech Stack:** [![Badge Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/) [![Badge Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)](https://www.djangoproject.com/) [![Badge JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/fr/docs/Web/JavaScript) [![Badge HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/fr/docs/Web/Guide/HTML/HTML5) [![Badge CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://developer.mozilla.org/fr/docs/Web/CSS) [![Badge PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)](https://www.postgresql.org/) [![Badge Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)](https://www.docker.com/) [![Badge CircleCI](https://img.shields.io/badge/CircleCI-343434?style=flat-square&logo=circleci&logoColor=white)](https://circleci.com/) [![Badge Cloudinary](https://img.shields.io/badge/Cloudinary-013243?style=flat-square&logo=cloudinary&logoColor=white)](https://cloudinary.com/) [![Badge AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)](https://aws.amazon.com/) [![Badge Stripe](https://img.shields.io/badge/Stripe-008CDD?style=flat-square&logo=stripe&logoColor=white)](https://stripe.com/) [![Badge Square](https://img.shields.io/badge/Square-3E3E3E?style=flat-square&logo=square&logoColor=white)](https://squareup.com/) [![Badge Zoom](https://img.shields.io/badge/Zoom-2D8CFF?style=flat-square&logo=zoom&logoColor=white)](https://zoom.us/)
 
 
@@ -107,10 +107,10 @@
 <details>
 <summary><strong>Personal Projects</strong></summary>
 
-- **E-commerce/Service Platform for Artists** (In Development)
+- **E-commerce/Service Platform for Artists** (Deployed!)
 
   - **Description:** Currently developing an e-commerce/service platform for artists who would like to display and sell their artworks, and/or provide direct personalized arts to their clients virtually. The tech stack includes Python, Django, JavaScript, HTML, CSS, PostgreSQL, Docker, CircleCI, Cloudinary, AWS, Stripe, Square, Zoom
-  - **GitHub Repo:** Soon!
+  - **GitHub Repo:** [Artists' Gallery](https://github.com/Gavin-Humphrey/liveartcorner)
   - **Tech Stack:** [![Badge Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/) [![Badge Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)](https://www.djangoproject.com/) [![Badge JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/fr/docs/Web/JavaScript) [![Badge HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/fr/docs/Web/Guide/HTML/HTML5) [![Badge CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://developer.mozilla.org/fr/docs/Web/CSS) [![Badge PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)](https://www.postgresql.org/) [![Badge Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)](https://www.docker.com/) [![Badge CircleCI](https://img.shields.io/badge/CircleCI-343434?style=flat-square&logo=circleci&logoColor=white)](https://circleci.com/) [![Badge Cloudinary](https://img.shields.io/badge/Cloudinary-013243?style=flat-square&logo=cloudinary&logoColor=white)](https://cloudinary.com/) [![Badge AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)](https://aws.amazon.com/) [![Badge Stripe](https://img.shields.io/badge/Stripe-008CDD?style=flat-square&logo=stripe&logoColor=white)](https://stripe.com/) [![Badge Square](https://img.shields.io/badge/Square-3E3E3E?style=flat-square&logo=square&logoColor=white)](https://squareup.com/) [![Badge Zoom](https://img.shields.io/badge/Zoom-2D8CFF?style=flat-square&logo=zoom&logoColor=white)](https://zoom.us/)
 
 

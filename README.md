@@ -111,7 +111,7 @@
 
 <summary><h2>Personal Projects</h2></summary>
 
-  - **E-commerce/Service Platform for Artists** (In Development)
+  - **E-commerce/Service Platform for Artists** (Deployed!)
 
     - **Description:** Currently developing an e-commerce/service platform for artists who would like to display and sell their artworks, and/or provide direct personalized arts to their clients virtually. The tech stack includes Python, Django, JavaScript, HTML, CSS, PostgreSQL, Docker, CircleCI, Cloudinary, AWS, Stripe, Square, Zoom
     - **GitHub Repo:** Soon!
