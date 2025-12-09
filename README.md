@@ -7,7 +7,7 @@
 
 # **Salut👋🏽, Je suis Gavin Humphrey !**
 
-👨🏾‍🦰 ***Je suis un passionné de développement web Python avec un vif intérêt pour la création d'applications web robustes et évolutives. J'ai une solide expérience en génie logiciel et j'apprécie résoudre des problèmes complexes grâce à des solutions de code élégantes.***
+👨🏾‍🦰 ***Je suis spécialisé en Python et Django, concevant et développant des applications web fiables, évolutives et maintenables. Fort d'une solide base en ingénierie logicielle, j'aime transformer les défis complexes en solutions élégantes et hautement performantes. Récemment, j'ai architecturé et livré une plateforme de formation IT full-stack, en me concentrant sur des API REST performantes, l'optimisation de l'infrastructure cloud et des expériences utilisateur fluides.***
 
 
 
@@ -119,7 +119,7 @@
 
 # **Hi👋🏽, I am Gavin Humphrey!**
 
-👨🏾‍🦰 ***I am a passionate Python web developer with a keen interest in building robust and scalable web applications. I have a strong background in software engineering and enjoy solving complex problems through elegant code solutions.***
+👨🏾‍🦰 ***I specialize in Python and Django, designing and developing web applications that are reliable, scalable, and maintainable. With a solid foundation in software engineering, I enjoy turning complex challenges into elegant, high-performance solutions. Most recently, I architected and delivered a full-stack IT training platform, focusing on high-performance REST APIs, cloud infrastructure optimization, and seamless user experiences.***
 
 
 ## 🤯 **Skills**
@@ -207,11 +207,6 @@
 ![Github Stats](https://github-readme-stats-delta-seven.vercel.app/api/top-langs/?username=Gavin-Humphrey&theme=blue-green)
 
 ![Github Stats](https://github-readme-stats-delta-seven.vercel.app/api?username=Gavin-Humphrey&theme=blue-green)
-
-
-
-
-
 
 
 ## 📫 **Contact me**
