@@ -24,6 +24,27 @@
   
 
 
+<summary><h2>Expérience Professionnelle</h2></summary>
+
+- ### **Consultant Python/Django Freelance**  
+  **Paris, France | 2024 – Présent**
+
+    - **Architecte Full-Cycle de Plateforme (Global Solutech)**  
+      - Conçu et déployé une plateforme de formation IT basée sur LLM.  
+      - Fournit des conseils sur l'infrastructure cloud, l'optimisation des bases de données et les déploiements en production.  
+      - **Fonctionnalités :** Paiements Stripe, salles de classe virtuelles Whereby et chat en temps réel.  
+      - **Technologies :** [![Badge Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/) [![Badge Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)](https://www.djangoproject.com/) [![Badge Stripe](https://img.shields.io/badge/Stripe-008CDD?style=flat-square&logo=stripe&logoColor=white)](https://stripe.com/) [![Badge Whereby](https://img.shields.io/badge/Whereby-6633FF?style=flat-square&logo=whereby&logoColor=white)](https://whereby.com/) [![Badge JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/fr/docs/Web/JavaScript) [![Badge PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)](https://www.postgresql.org/) [![Badge Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)](https://www.docker.com/) [![Badge Cloudinary](https://img.shields.io/badge/Cloudinary-013243?style=flat-square&logo=cloudinary&logoColor=white)](https://cloudinary.com/) [![AWS Badge](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)](https://aws.amazon.com/)  
+      - **Développement d’API & Conseil :** Fourniture de solutions full-stack sur mesure et d’API REST performantes. Conseil aux clients sur CI/CD, architecture cloud et optimisation de bases de données.
+
+
+- ### **Développeur Backend Python — L’Argus (Groupe Leboncoin)**  
+  **Paris, France | 2022 – 2024**
+
+  - Conception et déploiement d’une API Python/Django fournissant des données de valorisation de véhicules en temps réel dans l’écosystème microservices de Leboncoin.  
+  - Création de pipelines d’ingestion et de nettoyage de données avec Python, Pandas et NumPy pour standardiser les données des services Mobilité.  
+  - Pilotage de la migration Docker/Kubernetes et amélioration des performances API grâce à la collaboration inter-équipes.
+
+
 <summary><h2>Projets Personnels</h2></summary>
 
   - **Plateforme E-commerce/Service pour Artistes** (Déployé!)
@@ -107,6 +128,27 @@
 - Databases: [![PostgreSQL Badge](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)](https://www.postgresql.org/) [![MySQL Badge](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)](https://www.mysql.com/) [![SQLite Badge](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)](https://www.sqlite.org/) [![MongoDB Badge](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
 - Version Control: [![Git Badge](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)](https://git-scm.com/)
 - Other Tools: [![Docker Badge](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)](https://www.docker.com/) [![AWS Badge](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)](https://aws.amazon.com/) [![Heroku Badge](https://img.shields.io/badge/Heroku-430098?style=flat-square&logo=heroku&logoColor=white)](https://www.heroku.com/) [![CircleCI Badge](https://img.shields.io/badge/CircleCI-343434?style=flat-square&logo=circleci&logoColor=white)](https://circleci.com/) [![Cloudinary Badge](https://img.shields.io/badge/Cloudinary-013243?style=flat-square&logo=cloudinary&logoColor=white)](https://cloudinary.com/) [![Google Cloud Badge](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white)](https://cloud.google.com/) [![Sketch Badge](https://img.shields.io/badge/Sketch-F7B500?style=flat-square&logo=sketch&logoColor=white)](https://www.sketch.com/) [![Postman Badge](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)](https://www.postman.com/)
+
+
+<summary><h2>Professional Experience</h2></summary>
+
+ - ### **Freelance Python/Django Consultant**  
+   **Paris, France | 2024 – Present**
+
+    - **Full-Cycle Platform Architect (Global Solutech)**  
+      - Built and deployed an LLM-powered IT training platform.  
+      - Provided consulting on cloud infrastructure, database optimization, and production deployments.  
+      - **Features:** Stripe payments, Whereby virtual classrooms, and real-time chatrooms.  
+      - **Tech:** [![Badge Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/) [![Badge Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)](https://www.djangoproject.com/) [![Badge Stripe](https://img.shields.io/badge/Stripe-008CDD?style=flat-square&logo=stripe&logoColor=white)](https://stripe.com/) [![Badge Whereby](https://img.shields.io/badge/Whereby-6633FF?style=flat-square&logo=whereby&logoColor=white)](https://whereby.com/) [![Badge JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/fr/docs/Web/JavaScript)[![Badge PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)](https://www.postgresql.org/) [![Badge Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)](https://www.docker.com/) [![Badge Cloudinary](https://img.shields.io/badge/Cloudinary-013243?style=flat-square&logo=cloudinary&logoColor=white)](https://cloudinary.com/) [![AWS Badge](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)](https://aws.amazon.com/)  
+      - **API Development & Consultation:** Delivered bespoke full-stack solutions and high-performance REST APIs. Advised clients on CI/CD, cloud architecture, and DB optimization.
+
+
+- ### **Python Backend Developer — L’Argus (Leboncoin Group)**  
+  **Paris, France | 2022 – 2024**
+
+  - Engineered and deployed a Python/Django API delivering real-time vehicle valuation data across Leboncoin’s microservices ecosystem.  
+  - Built data ingestion and cleansing pipelines using Python, Pandas, and NumPy to standardize datasets for Mobility services.  
+  - Led Docker/Kubernetes migration and improved API performance through cross-team collaboration.
  
 
 <summary><h2>Personal Projects</h2></summary>
@@ -158,9 +200,10 @@
 
 ## 📊 **Github Stats**
 
-![Github Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=Gavin-Humphrey&theme=blue-green)
+![Github Stats](https://github-readme-stats-8sm5muc4r-gavins-projects-b4913fab.vercel.app/api/top-langs/?username=Gavin-Humphrey&theme=blue-green)
 
-![Github Stats](https://github-readme-stats.vercel.app/api?username=Gavin-Humphrey&theme=blue-green)
+![Github Stats](https://github-readme-stats-8sm5muc4r-gavins-projects-b4913fab.vercel.app/api?username=Gavin-Humphrey&theme=blue-green)
+
 
 
 ## 📫 **Contact me**
