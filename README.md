@@ -96,9 +96,10 @@
 
 ## 📊 **Statistiques Github**
 
-![Github Stats](https://github-readme-stats-8sm5muc4r-gavins-projects-b4913fab.vercel.app/api/top-langs/?username=Gavin-Humphrey&theme=blue-green)
+![Github Stats](https://github-readme-stats-delta-seven.vercel.app/api/top-langs/?username=Gavin-Humphrey&theme=blue-green)
 
-![Github Stats](https://github-readme-stats-8sm5muc4r-gavins-projects-b4913fab.vercel.app/api?username=Gavin-Humphrey&theme=blue-green)
+![Github Stats](https://github-readme-stats-delta-seven.vercel.app/api?username=Gavin-Humphrey&theme=blue-green)
+
 
 
 
@@ -203,9 +204,10 @@
 
 ## 📊 **Github Stats**
 
-![Github Stats](https://github-readme-stats-8sm5muc4r-gavins-projects-b4913fab.vercel.app/api/top-langs/?username=Gavin-Humphrey&theme=blue-green)
+![Github Stats](https://github-readme-stats-delta-seven.vercel.app/api/top-langs/?username=Gavin-Humphrey&theme=blue-green)
 
-![Github Stats](https://github-readme-stats-8sm5muc4r-gavins-projects-b4913fab.vercel.app/api?username=Gavin-Humphrey&theme=blue-green)
+![Github Stats](https://github-readme-stats-delta-seven.vercel.app/api?username=Gavin-Humphrey&theme=blue-green)
+
 
 
 
