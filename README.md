@@ -1,3 +1,7 @@
+<!DOCTYPE html>
+<html>
+<body>
+
 <div align= center>
   <img src="Gavin-Portfolio/img/portfolio-banner.jpg" alt="profile-banner" width="100%" height="auto"/>
 </div>
@@ -9,6 +13,7 @@
 <summary style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
   <h2 style="margin:0;">🇬🇧 English</h2>
 </summary>
+
 
 # **Hi👋🏽, I am Gavin Humphrey!**
 
@@ -169,7 +174,6 @@
 
 **gavin.humphrey.pro@gmail.com**
 </details>
-
 
 <details open="open">
 <summary style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
@@ -344,3 +348,6 @@
 
 **gavin.humphrey.pro@gmail.com**
 </details>
+
+</body>
+</html>
