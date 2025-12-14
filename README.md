@@ -6,9 +6,10 @@
 
 
 <details>
-<summary style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+<!-- <summary style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
   <h2 style="margin:0;">🇬🇧 English</h2>
-</summary>
+</summary> -->
+<summary>🇬🇧 English</summary>
 
 # **Hi👋🏽, I am Gavin Humphrey!**
 
@@ -172,9 +173,10 @@
 
 
 <details>
-<summary style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+<!-- <summary style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
   <h2 style="margin:0;">🇫🇷 Français</h2>
-</summary>
+</summary> -->
+<summary>🇫🇷 Français</summary>
 
 # **Salut👋🏽, Je suis Gavin Humphrey !**
 
