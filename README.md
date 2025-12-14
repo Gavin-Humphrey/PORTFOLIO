@@ -5,11 +5,10 @@
 <br>
 
 
-<details>
-<!-- <summary style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+<details open="open">
+<summary style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
   <h2 style="margin:0;">🇬🇧 English</h2>
-</summary> -->
-<summary>🇬🇧 English</summary>
+</summary>
 
 # **Hi👋🏽, I am Gavin Humphrey!**
 
@@ -172,11 +171,10 @@
 </details>
 
 
-<details>
-<!-- <summary style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+<details open="open">
+<summary style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
   <h2 style="margin:0;">🇫🇷 Français</h2>
-</summary> -->
-<summary>🇫🇷 Français</summary>
+</summary>
 
 # **Salut👋🏽, Je suis Gavin Humphrey !**
 
