@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gavin Humphrey | Python & Django Developer</title>
+    
+    <style>
+        :root {
+            --primary: #0969da;
+            --primary-soft: #e7f0fd;
+            --border: #d0d7de;
+            --text: #24292f;
+            --muted: #57606a;
+            --bg-soft: #f6f8fa;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                Roboto, Helvetica, Arial, sans-serif;
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 2.5rem 1.5rem;
+            color: var(--text);
+            background-color: #ffffff;
+            /* background-color: rgb(241, 243, 246); */
+            line-height: 1.65;
+        }
+
+        /* ---------- Headings ---------- */
+
+        h1 {
+            font-size: 2.1rem;
+            margin-bottom: 0.75rem;
+        }
+
+        h2 {
+            font-size: 1.6rem;
+            margin-top: 3rem;
+            margin-bottom: 1rem;
+            padding-bottom: 0.4rem;
+        }
+
+        h3 {
+            font-size: 1.25rem;
+            margin-top: 2rem;
+        }
+
+        h4 {
+            font-size: 1rem;
+            margin-top: 1.25rem;
+            margin-bottom: 0.5rem;
+            color: var(--muted);
+        }
+
+        /* ---------- Header ---------- */
+
+        .header-banner img {
+            width: 100%;
+            max-height: 260px;
+            object-fit: cover;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            margin-bottom: 2rem;
+        }
+
+        /* ---------- Language Switcher ---------- */
+
+        .language-switcher {
+            display: flex;
+            gap: 0.75rem;
+            margin-bottom: 2.5rem;
+        }
+
+        .language-switcher button {
+            padding: 0.5rem 1.1rem;
+            font-size: 0.95rem;
+            font-weight: 600;
+            /* border-radius: 999px; */
+            border-radius: 0.5rem;
+            border: 1px solid var(--border);
+            background: #fff;
+            color: var(--text);
+            cursor: pointer;
+            transition: all 0.15s ease;
+        }
+
+        .language-switcher button:hover {
+            background: var(--bg-soft);
+        }
+
+        .language-switcher button.active {
+            background: var(--primary);
+            color: #fff;
+            border-color: var(--primary);
+        }
+
+        /* ---------- Content Sections ---------- */
+
+        .content-section {
+            display: none;
+        }
+
+        #content-en {
+            display: block;
+        }
+
+        /* ---------- Paragraphs ---------- */
+
+        p {
+            margin: 0.6rem 0 1rem;
+        }
+
+        /* ---------- Lists ---------- */
+
+        ul {
+            padding-left: 1.25rem;
+            margin-bottom: 1.2rem;
+        }
+
+        li {
+            margin-bottom: 0.4rem;
+        }
+
+        /* ---------- Skills ---------- */
+
+        /* ========= */
+        .skills-list {
+            display: flex;
+            flex-direction: column;
+            gap: 1.75rem;
+            width: 100%;
+
+            background: var(--bg-soft);
+            box-shadow: 0 1px 3px rgba(27,31,36,0.08);
+            padding: 1.25rem 1.5rem;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+        }
+
+        .skills-list img {
+            margin-right: 0.4rem;
+            margin-bottom: 0.4rem;
+        }
+
+        .skill-row {
+            width: 100%;
+        }
+
+        .skill-row h4 {
+            margin: 0 0 0.6rem;
+            font-weight: 600;
+            padding-bottom: 0.35rem;
+            /* border-bottom: 1px solid rgba(255,255,255,0.15); */
+        }
+
+        .skill-badges {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.6rem;
+        }
+
+        /* ---------- Project / Experience Blocks ---------- */
+
+        .project-details {
+            margin-top: 0.75rem;
+            margin-bottom: 2rem;
+            padding: 1.25rem 1.5rem;
+            border-radius: 12px;
+            border-left: 4px solid var(--primary);
+            /* background: #ffffff; */
+            background: var(--bg-soft);
+            border: 1px solid var(--border);
+            box-shadow: 0 1px 3px rgba(27,31,36,0.08);
+        }
+
+        /* ---------- Badges ---------- */
+
+        .badge-link {
+            display: inline-block;
+        }
+
+        /* ---------- Notes & Blockquotes ---------- */
+
+        .note {
+            font-size: 0.9rem;
+            font-style: italic;
+            color: var(--muted);
+        }
+
+        blockquote {
+            background: var(--primary-soft);
+            border-left: 4px solid var(--primary);
+            padding: 1rem 1.25rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+        }
+
+        /* ---------- Media ---------- */
+
+        img {
+            max-width: 100%;
+        }
+
+        /* ---------- Footer / Contact ---------- */
+
+        hr {
+            border: none;
+            border-top: 1px solid var(--border);
+            margin: 3rem 0;
+        }
+
+        a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* ======= */
+        .content-section { display: none; }
+        .content-section.active { display: block; }
+        .language-switcher button.active { font-weight: 600; }
+
+
+    </style>
+
+</head>
+<body>
+
+    <div class="header-banner">
+        <img src="img/portfolio-banner.jpg" alt="profile-banner" style="width: 100%; max-height: 250px; object-fit: cover;">
+    </div>
+
+    <div class="language-switcher">
+        <button id="btn-en" class="active" onclick="setLanguage('en')">🇬🇧 English</button>
+        <button id="btn-fr" onclick="setLanguage('fr')">🇫🇷 Français</button>
+    </div>
+    
+    <div id="content-en" class="content-section">
+    <h1>Hi👋🏽, I am Gavin Humphrey!</h1>
+    <p>👨🏾‍🦰 <strong>I specialize in Python and Django, designing and developing web applications that are reliable, scalable, and maintainable. With a solid foundation in software engineering, I enjoy turning complex challenges into elegant, high-performance solutions. Most recently, I architected and delivered a full-stack IT training platform, focusing on high-performance REST APIs, cloud infrastructure optimization, and seamless user experiences.</strong></p>
+
+    <h2>🤯 Skills</h2>
+
+    <div class="skills-list">
+
+        <section class="skill-row">
+            <h4>Programming Languages</h4>
+            <div class="skill-badges">
+            <a class="badge-link" href="https://www.python.org/" target="_blank">
+                <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
+            </a>
+            <a class="badge-link" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+                <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black">
+            </a>
+            </div>
+        </section>
+
+        <section class="skill-row">
+            <h4>Markup Languages</h4>
+            <div class="skill-badges">
+            <a class="badge-link" href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="_blank">
+                <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white">
+            </a>
+            </div>
+        </section>
+
+        <section class="skill-row">
+            <h4>Stylesheet Languages</h4>
+            <div class="skill-badges">
+            <a class="badge-link" href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
+                <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white">
+            </a>
+            <a class="badge-link" href="https://sass-lang.com/" target="_blank">
+                <img src="https://img.shields.io/badge/Sass-CC6699?style=flat-square&logo=sass&logoColor=white">
+            </a>
+            </div>
+        </section>
+
+        <section class="skill-row">
+            <h4>Web Frameworks</h4>
+            <div class="skill-badges">
+            <a class="badge-link" href="https://www.djangoproject.com/" target="_blank">
+                <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white">
+            </a>
+            <a class="badge-link" href="https://www.django-rest-framework.org/" target="_blank">
+                <img src="https://img.shields.io/badge/Django_REST_Framework-092E20?style=flat-square&logo=django&logoColor=white">
+            </a>
+            <a class="badge-link" href="https://flask.palletsprojects.com/" target="_blank">
+                <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white">
+            </a>
+            </div>
+        </section>
+
+        <section class="skill-row">
+            <h4>Frontend Frameworks</h4>
+            <div class="skill-badges">
+            <a class="badge-link" href="https://vuejs.org/" target="_blank">
+                <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white">
+            </a>
+            </div>
+        </section>
+
+        <section class="skill-row">
+            <h4>Databases</h4>
+            <div class="skill-badges">
+            <a class="badge-link" href="https://www.postgresql.org/" target="_blank">
+                <img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white">
+            </a>
+            <a class="badge-link" href="https://www.mysql.com/" target="_blank">
+                <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white">
+            </a>
+            <a class="badge-link" href="https://www.sqlite.org/" target="_blank">
+                <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white">
+            </a>
+            <a class="badge-link" href="https://www.mongodb.com/" target="_blank">
+                <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white">
+            </a>
+            </div>
+        </section>
+
+        <section class="skill-row">
+            <h4>Version Control</h4>
+            <div class="skill-badges">
+            <a class="badge-link" href="https://git-scm.com/" target="_blank">
+                <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white">
+            </a>
+            </div>
+        </section>
+
+        <section class="skill-row">
+            <h4>Other Tools</h4>
+            <div class="skill-badges">
+            <a class="badge-link" href="https://www.docker.com/" target="_blank">
+                <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white">
+            </a>
+            <a class="badge-link" href="https://aws.amazon.com/" target="_blank">
+                <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white">
+            </a>
+            <a class="badge-link" href="https://www.heroku.com/" target="_blank">
+                <img src="https://img.shields.io/badge/Heroku-430098?style=flat-square&logo=heroku&logoColor=white">
+            </a>
+            <a class="badge-link" href="https://circleci.com/" target="_blank">
+                <img src="https://img.shields.io/badge/CircleCI-343434?style=flat-square&logo=circleci&logoColor=white">
+            </a>
+            <a class="badge-link" href="https://cloudinary.com/" target="_blank">
+                <img src="https://img.shields.io/badge/Cloudinary-013243?style=flat-square&logo=cloudinary&logoColor=white">
+            </a>
+            <a class="badge-link" href="https://cloud.google.com/" target="_blank">
+                <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white">
+            </a>
+            <a class="badge-link" href="https://www.sketch.com/" target="_blank">
+                <img src="https://img.shields.io/badge/Sketch-F7B500?style=flat-square&logo=sketch&logoColor=white">
+            </a>
+            <a class="badge-link" href="https://www.postman.com/" target="_blank">
+                <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white">
+            </a>
+            </div>
+        </section>
+
+    </div>
+
+
+    <h2>Professional Experience</h2>
+    
+    <h3>Freelance Python/Django Consultant <small>| Paris, France | 2024 – Present</small></h3>
+    <h4>💼 Global Solutech – IT Consulting & IT Training (MLS) Platform</h4>
+    <p><strong>Comprehensive IT Training and Consulting platform for students and staff</strong></p>
+    <ul>
+        <li>Client: <strong>Global Solutech</strong> - Role: <strong>Lead Backend & Full-Stack Engineer</strong> - Stack: <strong>Python, Django, REST APIs, PostgreSQL, Docker, Cloud, Whereby</strong> - Status: <strong>Designed, developed & deployed (Production)</strong></li>
+        
+        <li><strong>Platform Overview:</strong> <ul>
+                <li>Full-stack IT Training & Consulting (MLS) platform built from scratch.</li>
+                <li>Secure authentication and role-based access for <strong>students</strong> and <strong>staff</strong>.</li>
+            </ul>
+        </li>
+
+        <li><strong>Students Dashboard:</strong> <ul>
+                <li>Access to <strong>lessons, quizzes, hands-on activities, and assignments</strong>.</li>
+                <li><strong>Progress tracking</strong> and realtime <strong>performance monitoring</strong>.</li>
+                <li>Interactive <strong>discussion forums</strong> and live chatrooms.</li>
+                <li>Virtual classroom sessions powered by <strong>Whereby</strong> and real-time notifications.</li>
+            </ul>
+        </li>
+
+        <li><strong>Staff Dashboard:</strong> <ul>
+                <li>Course and lesson management.</li>
+                <li>Monitoring student <strong>progress, attendance, and performance</strong>.</li>
+                <li>Evaluation of <strong>hands-on activities and assignments</strong>.</li>
+                <li>Managing discussions and providing guidance in live chatrooms.</li>
+            </ul>
+        </li>
+
+        <li><strong>Virtual Classroom:</strong> <ul>
+                <li>Live sessions integrated with <strong>Whereby</strong> for real-time teaching.</li>
+                <li>Teacher-student interaction, attendance tracking, and session recording.</li>
+            </ul>
+        </li>
+
+        <li><strong>Realtime Chatrooms:</strong> <ul>
+                <li>Main discussion channels for general course topics.</li>
+                <li>Student-created discussion threads (“tickets”).</li>
+                <li>Private messaging within the same course groups.</li>
+            </ul>
+        </li>
+
+        <li><strong>Quizzes and Assessments:</strong> <ul>
+                <li>Lesson-based quizzes with automated progress validation.</li>
+                <li>Hands-on tasks and assignments graded virtually by staff.</li>
+                <li>Overall course completion validated through performance metrics.</li>
+            </ul>
+        </li>
+        
+        <li><strong>Key Responsibilities:</strong>
+            <ul>
+                <li>Backend architecture & database design.</li>
+                <li>API development & integration for all platform features.</li>
+                <li>Frontend–backend integration and UI consistency.</li>
+                <li>Virtual classroom and real-time messaging system integration.</li>
+                <li>Deployment, monitoring, and production readiness using Docker & CI/CD pipelines.</li>
+            </ul>
+        </li>
+        
+        <li><strong>Features:</strong> Stripe payments, Whereby virtual classrooms, and real-time chatrooms.</li>
+
+            <li> <strong>Tech Stack:</strong> <a class="badge-link" href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python Badge"></a> <a class="badge-link" href="https://www.djangoproject.com/" target="_blank"><img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" alt="Django Badge"></a> <a class="badge-link" href="https://stripe.com/" target="_blank"><img src="https://img.shields.io/badge/Stripe-008CDD?style=flat-square&logo=stripe&logoColor=white" alt="Stripe Badge"></a> <a class="badge-link" href="https://whereby.com/" target="_blank"><img src="https://img.shields.io/badge/Whereby-6633FF?style=flat-square&logo=whereby&logoColor=white" alt="Whereby Badge"></a> <a class="badge-link" href="https://developer.mozilla.org/fr/docs/Web/JavaScript" target="_blank"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript Badge"></a><a class="badge-link" href="https://www.postgresql.org/" target="_blank"><img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL Badge"></a> <a class="badge-link" href="https://www.docker.com/" target="_blank"><img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker Badge"></a> <a class="badge-link" href="https://cloudinary.com/" target="_blank"><img src="https://img.shields.io/badge/Cloudinary-013243?style=flat-square&logo=cloudinary&logoColor=white" alt="Cloudinary Badge"></a> <a class="badge-link" href="https://aws.amazon.com/" target="_blank"><img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" alt="AWS Badge"></a></li>
+                
+            <li><strong>API Development & Consultation:</strong> Delivered bespoke full-stack solutions and high-performance REST APIs. Advised clients on CI/CD, cloud architecture, and DB optimization.</li>
+        </ul>
+        <blockquote style="margin-left: 0; padding-left: 15px; border-left: 3px solid #007bff;">
+            🔒 Source code private (client ownership)<br>
+            🔗 Live Platform: <a href="https://globalsolutech.com/" target="_blank">Global Solutech Website</a><br>
+            <span class="note">Note: Feature set may differ slightly from original implementation</span>
+        </blockquote>
+
+        <h3>Python Backend Developer — L’Argus (Leboncoin Group) <small>| Paris, France | 2022 – 2024</small></h3>
+        <ul>
+            <li>Engineered and deployed a Python/Django API delivering real-time vehicle valuation data across Leboncoin’s microservices ecosystem.</li>  
+            <li>Built data ingestion and cleansing pipelines using Python, Pandas, and NumPy to standardize datasets for Mobility services.</li>  
+            <li>Led Docker/Kubernetes migration and improved API performance through cross-team collaboration.</li>
+        </ul>
+
+        <h2>Personal Projects</h2>
+        
+        <h4>E-commerce/Service Platform for Artists (Deployed!)</h4>
+        <div class="project-details">
+            <p><strong>Description:</strong> Currently developing an e-commerce/service platform for artists who would like to display and sell their artworks, and/or provide direct personalized arts to their clients virtually. The tech stack includes Python, Django, JavaScript, HTML, CSS, PostgreSQL, Docker, CircleCI, Cloudinary, AWS, Stripe, Square, Zoom</p>
+            <p><strong>GitHub Repo:</strong> <a href="https://github.com/Gavin-Humphrey/liveartcorner" target="_blank">Artists' Gallery</a></p>
+            <p><strong>Tech Stack:</strong> <a class="badge-link" href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python Badge"></a> <a class="badge-link" href="https://www.djangoproject.com/" target="_blank"><img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" alt="Django Badge"></a> <a class="badge-link" href="https://developer.mozilla.org/fr/docs/Web/JavaScript" target="_blank"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript Badge"></a> <a class="badge-link" href="https://developer.mozilla.org/fr/docs/Web/Guide/HTML/HTML5" target="_blank"><img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5 Badge"></a> <a class="badge-link" href="https://developer.mozilla.org/fr/docs/Web/CSS" target="_blank"><img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3 Badge"></a> <a class="badge-link" href="https://www.postgresql.org/" target="_blank"><img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL Badge"></a> <a class="badge-link" href="https://www.docker.com/" target="_blank"><img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker Badge"></a> <a class="badge-link" href="https://circleci.com/" target="_blank"><img src="https://img.shields.io/badge/CircleCI-343434?style=flat-square&logo=circleci&logoColor=white" alt="CircleCI Badge"></a> <a class="badge-link" href="https://cloudinary.com/" target="_blank"><img src="https://img.shields.io/badge/Cloudinary-013243?style=flat-square&logo=cloudinary&logoColor=white" alt="Cloudinary Badge"></a> <a class="badge-link" href="https://aws.amazon.com/" target="_blank"><img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" alt="AWS Badge"></a> <a class="badge-link" href="https://stripe.com/" target="_blank"><img src="https://img.shields.io/badge/Stripe-008CDD?style=flat-square&logo=stripe&logoColor=white" alt="Stripe Badge"></a> <a class="badge-link" href="https://squareup.com/" target="_blank"><img src="https://img.shields.io/badge/Square-3E3E3E?style=flat-square&logo=square&logoColor=white" alt="Square Badge"></a> <a class="badge-link" href="https://zoom.us/" target="_blank"><img src="https://img.shields.io/badge/Zoom-2D8CFF?style=flat-square&logo=zoom&logoColor=white" alt="Zoom Badge"></a></p>
+        </div>
+        
+        <h4>Video streaming evaluating platform</h4>
+        <div class="project-details">
+            <p><strong>Description:</strong> Developed a full-fledged video-streaming platform using Django, Cloudinary, PostgreSQL, Docker, CircleCI, HTML, and CSS. Leveraged Django's robust framework for backend development and integrated Cloudinary for efficient media management. Utilized PostgreSQL for scalable database management. Implemented features such as user authentication, user-follow functionality, video upload capability, and video rating and critique system. Incorporated Docker for containerization, CircleCI for continuous integration, and Heroku for seamless deployment, ensuring a smooth and reliable development workflow. Additionally, crafted the frontend interface with HTML and CSS to provide an engaging user experience.</p>
+            <p><strong>GitHub Repo:</strong> <a href="https://github.com/Gavin-Humphrey/filmjunkiez" target="_blank">Video streaming evaluating platform</a></p>
+            <p><strong>Tech Stack:</strong> <a class="badge-link" href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python Badge"></a> <a class="badge-link" href="https://www.djangoproject.com/" target="_blank"><img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" alt="Django Badge"></a> <a class="badge-link" href="https://developer.mozilla.org/fr/docs/Web/JavaScript" target="_blank"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript Badge"></a> <a class="badge-link" href="https://developer.mozilla.org/fr/docs/Web/Guide/HTML/HTML5" target="_blank"><img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5 Badge"></a> <a class="badge-link" href="https://developer.mozilla.org/fr/docs/Web/CSS" target="_blank"><img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3 Badge"></a> <a class="badge-link" href="https://www.docker.com/" target="_blank"><img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker Badge"></a> <a class="badge-link" href="https://cloudinary.com/" target="_blank"><img src="https://img.shields.io/badge/Cloudinary-013243?style=flat-square&logo=cloudinary&logoColor=white" alt="Cloudinary Badge"></a> <a class="badge-link" href="https://www.postgresql.org/" target="_blank"><img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL Badge"></a> <a class="badge-link" href="https://circleci.com/" target="_blank"><img src="https://img.shields.io/badge/CircleCI-343434?style=flat-square&logo=circleci&logoColor=white" alt="CircleCI Badge"></a> <a class="badge-link" href="https://www.heroku.com/" target="_blank"><img src="https://img.shields.io/badge/Heroku-430098?style=flat-square&logo=heroku&logoColor=white" alt="Heroku Badge"></a></p>
+        </div>
+
+        <div align="center" style="margin-top: 20px;">
+            <h4>Demo Preview</h4>
+            <img src="img/Film-Junkiez-Demo.gif" alt="Film-Junkiez Demo" style="max-width: 100%; height: auto;" />
+        </div>
+
+        <h2>Other Projects</h2>
+        
+        <h4>Project 1: Event Management Platform API</h4>
+        <div class="project-details">
+            <p><strong>Description:</strong> This is an API made with Django for a fictional event company, EpicEvents. The application allows you to manage clients, contracts and events via a REST API and an administration interface.</p>
+            <p><strong>GitHub Repo:</strong> <a href="https://github.com/Gavin-Humphrey/P12-EpicEvents" target="_blank">Epic Event API</a></p>
+            <p><strong>Tech Stack:</strong> <a class="badge-link" href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python Badge"></a> <img src="https://img.shields.io/badge/API-REST-brightgreen.svg" alt="REST API Badge"> <a class="badge-link" href="https://www.postman.com/" target="_blank"><img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white" alt="Postman Badge"></a></p>
+        </div>
+
+        <h4>Project 2: SoftDesk</h4>
+        <div class="project-details">
+            <p><strong>Description:</strong> This is an API made with Django for a fictional company, SoftDesk. The application allows you to track and follow technical issues (issue tracking system).</p>
+            <p><strong>GitHub Repo:</strong> <a href="https://github.com/Gavin-Humphrey/P10-SoftDesk" target="_blank">SoftDesk</a></p>
+            <p><strong>Tech Stack:</strong> <a class="badge-link" href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python Badge"></a> <a class="badge-link" href="https://www.djangoproject.com/" target="_blank"><img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" alt="Django Badge"></a> <img src="https://img.shields.io/badge/Django%20REST%20Framework-3.x-brightgreen.svg" alt="Django REST Framework Badge"></p>
+        </div>
+
+        <h4>Project 3: Chess Tournament Management Application</h4>
+        <div class="project-details">
+            <p><strong>Description:</strong> This project is about creating an application that allows you to create the structure of a chess tournament, and to add players to a database. The program uses the Swiss tournament algorithm to calculate the rotation of players in order to have balanced matches and to avoid the repetition of matches.</p>
+            <ul>
+                <li>This Application is written in the <strong>MVC design pattern</strong> - Models - Views - Controllers, and the data is stored in the <strong>TinyDB</strong> database library.</li>
+                <li>It allows you to: Create and save players, Update player scores, Create and save tournaments, Organize tournaments, and Resume an unfinished tournament.</li>
+            </ul>
+            <p><strong>GitHub Repo:</strong> <a href="https://github.com/Gavin-Humphrey/Project_4_2022_Chess_Tournament" target="_blank">Chess Tournament Management Application</a></p>
+            <p><strong>Tech Stack:</strong> <a class="badge-link" href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python Badge"></a> <a class="badge-link" href="https://developer.mozilla.org/fr/docs/Web/Guide/HTML/HTML5" target="_blank"><img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5 Badge"></a> <a class="badge-link" href="https://developer.mozilla.org/fr/docs/Web/CSS" target="_blank"><img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3 Badge"></a></p>
+        </div>
+
+
+        <h2>📊 GitHub Statistics</h2>
+        <div align="center">
+            <img src="https://github-readme-stats.vercel.app/api?username=gavin-humphrey&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&exclude_repo=gavin-humphrey" height="165"/>
+            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gavin-humphrey&layout=compact&theme=tokyonight&hide_border=true&count_private=true&exclude_repo=gavin-humphrey" height="165"/>
+        </div>
+
+        <h2>🔥 GitHub Contribution Streak</h2>
+        <div align="center">
+            <img src="https://github-readme-streak-stats.herokuapp.com/?user=gavin-humphrey&theme=tokyonight&hide_border=true"/>
+        </div>
+
+
+        <h2>📫 Contact me</h2>
+        <p>
+            <a href="https://www.linkedin.com/in/gavin-humphrey-b2289122b/" target="_blank"> 
+            <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin Badge"></a>
+            <br>
+            <strong>gavin.humphrey.pro@gmail.com</strong>
+        </p>
+    </div>
+
+
+
+    <div id="content-fr" class="content-section">
+        <h1>Salut👋🏽, Je suis Gavin Humphrey !</h1>
+        <p>👨🏾‍🦰 <strong>Je suis spécialisé en Python et Django, concevant et développant des applications web fiables, évolutives et maintenables. Fort d'une solide base en ingénierie logicielle, j'aime transformer les défis complexes en solutions élégantes et hautement performantes. Récemment, j'ai architecturé et livré une plateforme de formation IT full-stack, en me concentrant sur des API REST performantes, l'optimisation de l'infrastructure cloud et des expériences utilisateur fluides.</strong></p>
+
+        <h2>🤯 Compétences</h2>
+        <div class="skills-list">
+
+            <section class="skill-row">
+                <h4>Langages de programmation :</h4>
+                <div class="skill-badges">
+                <a class="badge-link" href="https://www.python.org/" target="_blank">
+                    <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
+                </a>
+                <a class="badge-link" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+                    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black">
+                </a>
+                </div>
+            </section>
+
+            <section class="skill-row">
+                <h4>Langages de balisage :</h4>
+                <div class="skill-badges">
+                <a class="badge-link" href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="_blank">
+                    <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white">
+                </a>
+                </div>
+            </section>
+
+            <section class="skill-row">
+                <h4>Langages de feuilles de style :</h4>
+                <div class="skill-badges">
+                <a class="badge-link" href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
+                    <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white">
+                </a>
+                <a class="badge-link" href="https://sass-lang.com/" target="_blank">
+                    <img src="https://img.shields.io/badge/Sass-CC6699?style=flat-square&logo=sass&logoColor=white">
+                </a>
+                </div>
+            </section>
+
+            <section class="skill-row">
+                 <h4>Cadres Web :</h4>
+                <div class="skill-badges">
+                <a class="badge-link" href="https://www.djangoproject.com/" target="_blank">
+                    <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white">
+                </a>
+                <a class="badge-link" href="https://www.django-rest-framework.org/" target="_blank">
+                    <img src="https://img.shields.io/badge/Django_REST_Framework-092E20?style=flat-square&logo=django&logoColor=white">
+                </a>
+                <a class="badge-link" href="https://flask.palletsprojects.com/" target="_blank">
+                    <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white">
+                </a>
+                </div>
+            </section>
+
+            <section class="skill-row">
+                <h4>Cadres Frontend :</h4>
+                <div class="skill-badges">
+                <a class="badge-link" href="https://vuejs.org/" target="_blank">
+                    <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white">
+                </a>
+                </div>
+            </section>
+
+            <section class="skill-row">
+                <h4>Bases de données :</h4>
+                <div class="skill-badges">
+                <a class="badge-link" href="https://www.postgresql.org/" target="_blank">
+                    <img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white">
+                </a>
+                <a class="badge-link" href="https://www.mysql.com/" target="_blank">
+                    <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white">
+                </a>
+                <a class="badge-link" href="https://www.sqlite.org/" target="_blank">
+                    <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white">
+                </a>
+                <a class="badge-link" href="https://www.mongodb.com/" target="_blank">
+                    <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white">
+                </a>
+                </div>
+            </section>
+
+            <section class="skill-row">
+                <h4>Contrôle de version :</h4>
+                <div class="skill-badges">
+                <a class="badge-link" href="https://git-scm.com/" target="_blank">
+                    <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white">
+                </a>
+                </div>
+            </section>
+
+            <section class="skill-row">
+                <h4>Autres outils :</h4>
+                <div class="skill-badges">
+                <a class="badge-link" href="https://www.docker.com/" target="_blank">
+                    <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white">
+                </a>
+                <a class="badge-link" href="https://aws.amazon.com/" target="_blank">
+                    <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white">
+                </a>
+                <a class="badge-link" href="https://www.heroku.com/" target="_blank">
+                    <img src="https://img.shields.io/badge/Heroku-430098?style=flat-square&logo=heroku&logoColor=white">
+                </a>
+                <a class="badge-link" href="https://circleci.com/" target="_blank">
+                    <img src="https://img.shields.io/badge/CircleCI-343434?style=flat-square&logo=circleci&logoColor=white">
+                </a>
+                <a class="badge-link" href="https://cloudinary.com/" target="_blank">
+                    <img src="https://img.shields.io/badge/Cloudinary-013243?style=flat-square&logo=cloudinary&logoColor=white">
+                </a>
+                <a class="badge-link" href="https://cloud.google.com/" target="_blank">
+                    <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white">
+                </a>
+                <a class="badge-link" href="https://www.sketch.com/" target="_blank">
+                    <img src="https://img.shields.io/badge/Sketch-F7B500?style=flat-square&logo=sketch&logoColor=white">
+                </a>
+                <a class="badge-link" href="https://www.postman.com/" target="_blank">
+                    <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white">
+                </a>
+                </div>
+            </section>
+
+        </div>
+        
+        <h2>Expérience Professionnelle</h2>
+        
+        <h3>Consultant Python/Django Freelance <small>| Paris, France | 2024 – Présent</small></h3>
+        <h4>💼 Global Solutech – Plateforme de Formation et de Conseil IT (MLS)</h4>
+        <p><strong>Plateforme complète de formation et de conseil IT pour étudiants et personnel</strong></p>
+        <ul>
+            <li>Client: <strong>Global Solutech</strong> - Rôle: <strong>Ingénieur Backend & Full-Stack Principal</strong> - Stack: <strong>Python, Django, API REST, PostgreSQL, Docker, Cloud, Whereby</strong> - Statut: <strong>Conçue, développée et déployée (Production)</strong></li>
+            
+            <li><strong>Présentation de la plateforme :</strong> <ul>
+                    <li>Plateforme complète de formation et de conseil IT (MLS) construite à partir de zéro.</li>
+                    <li>Authentification sécurisée et accès basé sur les rôles pour <strong>étudiants</strong> et <strong>personnel</strong>.</li>
+                </ul>
+            </li>
+
+            <li><strong>Tableau de bord des étudiants :</strong> <ul>
+                    <li>Accès aux <strong>cours, quiz, activités pratiques et devoirs</strong>.</li>
+                    <li><strong>Suivi de progression</strong> et <strong>monitoring des performances en temps réel</strong>.</li>
+                    <li><strong>Forums de discussion</strong> interactifs et chatrooms en direct.</li>
+                    <li>Sessions de classe virtuelle via <strong>Whereby</strong> et notifications en temps réel.</li>
+                </ul>
+            </li>
+
+            <li><strong>Tableau de bord du personnel :</strong><ul>
+                    <li>Gestion des cours et des leçons.</li>
+                    <li>Suivi de la <strong>progression, de l’assiduité et des performances</strong> des étudiants.</li>
+                    <li>Évaluation des <strong>activités pratiques et des devoirs</strong>.</li>
+                    <li>Gestion des discussions et accompagnement dans les chatrooms en direct.</li>
+                </ul>
+            </li>
+
+            <li><strong>Classe virtuelle :</strong> <ul>
+                    <li>Sessions en direct intégrées avec <strong>Whereby</strong> pour un enseignement en temps réel.</li>
+                    <li>Interaction enseignant-étudiant, suivi de présence et enregistrement des sessions.</li>
+                </ul>
+            </li>
+
+            <li><strong>Chatrooms en temps réel :</strong> <ul>
+                    <li>Canaux de discussion principaux pour les sujets généraux du cours.</li>
+                    <li>Fils de discussion créés par les étudiants (“tickets”).</li>
+                    <li>Messagerie privée au sein des mêmes groupes de cours.</li>
+                </ul>
+            </li>
+
+            <li><strong>Quiz et évaluations :</strong> <ul>
+                    <li>Quiz basés sur les leçons avec validation automatique de progression.</li>
+                    <li>Activités pratiques et devoirs notés virtuellement par le personnel.</li>
+                    <li>Validation de la complétion globale du cours via des indicateurs de performance.</li>
+                </ul>
+            </li>
+            
+            <li><strong>Responsabilités clés :</strong>
+                <ul>
+                    <li>Architecture backend & conception de base de données.</li>
+                    <li>Développement et intégration des API pour toutes les fonctionnalités de la plateforme.</li>
+                    <li>Intégration frontend-backend et cohérence de l’UI.</li>
+                    <li>Intégration de la classe virtuelle et du système de messagerie en temps réel.</li>
+                    <li>Déploiement, monitoring et préparation à la production avec Docker & pipelines CI/CD.</li>
+                </ul>
+            </li>
+            
+            <li><strong>Fonctionnalités :</strong> Paiements Stripe, salles de classe virtuelles Whereby et chat en temps réel.</li>
+            <li>Technologies : <a class="badge-link" href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Badge Python"></a> <a class="badge-link" href="https://www.djangoproject.com/" target="_blank"><img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" alt="Badge Django"></a> <a class="badge-link" href="https://stripe.com/" target="_blank"><img src="https://img.shields.io/badge/Stripe-008CDD?style=flat-square&logo=stripe&logoColor=white" alt="Badge Stripe"></a> <a class="badge-link" href="https://whereby.com/" target="_blank"><img src="https://img.shields.io/badge/Whereby-6633FF?style=flat-square&logo=whereby&logoColor=white" alt="Badge Whereby"></a> <a class="badge-link" href="https://developer.mozilla.org/fr/docs/Web/JavaScript" target="_blank"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="Badge JavaScript"></a> <a class="badge-link" href="https://www.postgresql.org/" target="_blank"><img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white" alt="Badge PostgreSQL"></a> <a class="badge-link" href="https://www.docker.com/" target="_blank"><img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Badge Docker"></a> <a class="badge-link" href="https://cloudinary.com/" target="_blank"><img src="https://img.shields.io/badge/Cloudinary-013243?style=flat-square&logo=cloudinary&logoColor=white" alt="Badge Cloudinary"></a> <a class="badge-link" href="https://aws.amazon.com/" target="_blank"><img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" alt="AWS Badge"></a></li>
+            <li>Développement d’API & Conseil : Fourniture de solutions full-stack sur mesure et d’API REST performantes. Conseil aux clients sur CI/CD, architecture cloud et optimisation de bases de données.</li>
+        </ul>
+        <blockquote style="margin-left: 0; padding-left: 15px; border-left: 3px solid #0366d6;">
+            🔒 Code source privé (propriété du client)<br>
+            🔗 Plateforme en ligne : <a href="https://globalsolutech.com/" target="_blank">https://globalsolutech.com/</a><br>
+            <span class="note">Remarque : L’ensemble des fonctionnalités peut légèrement différer de l’implémentation originale</span>
+        </blockquote>
+
+        <h3>Développeur Backend Python — L’Argus (Groupe Leboncoin) <small>| Paris, France | 2022 – 2024</small></h3>
+        <ul>
+            <li>Conception et déploiement d’une API Python/Django fournissant des données de valorisation de véhicules en temps réel dans l’écosystème microservices de Leboncoin.</li>  
+            <li>Création de pipelines d’ingestion et de nettoyage de données avec Python, Pandas et NumPy pour standardiser les données des services Mobilité.</li>  
+            <li>Pilotage de la migration Docker/Kubernetes et amélioration des performances API grâce à la collaboration inter-équipes.</li>
+        </ul>
+
+        <h2>Projets Personnels</h2>
+        
+        <h4>Plateforme E-commerce/Service pour Artistes (Déployé!)</h4>
+        <div class="project-details">
+            <p><strong>Description :</strong> Actuellement en développement, une plateforme e-commerce/service pour les artistes qui souhaitent exposer et vendre leurs œuvres d'art, et/ou fournir des arts personnalisés directement à leurs clients virtuellement. La pile technologique comprend Python, Django, JavaScript, HTML, CSS, PostgreSQL, Docker, CircleCI, Cloudinary, AWS, Stripe, Square, Zoom</p>
+            <p><strong>GitHub Repo :</strong> <a href="https://github.com/Gavin-Humphrey/liveartcorner" target="_blank">Galerie d'Artistes</a></p>
+            <p><strong>Stack Technique :</strong> <a class="badge-link" href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Badge Python"></a> <a class="badge-link" href="https://www.djangoproject.com/" target="_blank"><img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" alt="Badge Django"></a> <a class="badge-link" href="https://developer.mozilla.org/fr/docs/Web/JavaScript" target="_blank"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="Badge JavaScript"></a> <a class="badge-link" href="https://developer.mozilla.org/fr/docs/Web/Guide/HTML/HTML5" target="_blank"><img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="Badge HTML5"></a> <a class="badge-link" href="https://developer.mozilla.org/fr/docs/Web/CSS" target="_blank"><img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="Badge CSS3"></a> <a class="badge-link" href="https://www.postgresql.org/" target="_blank"><img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white" alt="Badge PostgreSQL"></a> <a class="badge-link" href="https://www.docker.com/" target="_blank"><img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Badge Docker"></a> <a class="badge-link" href="https://circleci.com/" target="_blank"><img src="https://img.shields.io/badge/CircleCI-343434?style=flat-square&logo=circleci&logoColor=white" alt="Badge CircleCI"></a> <a class="badge-link" href="https://cloudinary.com/" target="_blank"><img src="https://img.shields.io/badge/Cloudinary-013243?style=flat-square&logo=cloudinary&logoColor=white" alt="Badge Cloudinary"></a> <a class="badge-link" href="https://aws.amazon.com/" target="_blank"><img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" alt="AWS Badge"></a> <a class="badge-link" href="https://stripe.com/" target="_blank"><img src="https://img.shields.io/badge/Stripe-008CDD?style=flat-square&logo=stripe&logoColor=white" alt="Badge Stripe"></a> <a class="badge-link" href="https://squareup.com/" target="_blank"><img src="https://img.shields.io/badge/Square-3E3E3E?style=flat-square&logo=square&logoColor=white" alt="Badge Square"></a> <a class="badge-link" href="https://zoom.us/" target="_blank"><img src="https://img.shields.io/badge/Zoom-2D8CFF?style=flat-square&logo=zoom&logoColor=white" alt="Badge Zoom"></a></p>
+        </div>
+        
+        <h4>Plateforme d'évaluation de diffusion en continu vidéo</h4>
+        <div class="project-details">
+            <p><strong>Description :</strong> Développé une plateforme de diffusion vidéo complète utilisant Django, Cloudinary, PostgreSQL, Docker, CircleCI, HTML et CSS. A exploité le framework robuste de Django pour le développement backend et intégré Cloudinary pour une gestion efficace des médias. Utilisé PostgreSQL pour la gestion évolutive de la base de données. Implémenté des fonctionnalités telles que l'authentification utilisateur, la fonctionnalité de suivi d'utilisateur, la possibilité de télécharger des vidéos et un système de notation et de critique vidéo. Incorporé Docker pour la conteneurisation, CircleCI pour l'intégration continue et Heroku pour le déploiement transparent, garantissant un flux de travail de développement fluide et fiable. De plus, a conçu l'interface frontend avec HTML et CSS pour offrir une expérience utilisateur engageante.</p>
+            <p><strong>GitHub Repo :</strong> <a href="https://github.com/Gavin-Humphrey/filmjunkiez" target="_blank">Plateforme d'évaluation de diffusion en continu vidéo</a></p>
+            <p><strong>Stack Technique :</strong> <a class="badge-link" href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Badge Python"></a> <a class="badge-link" href="https://www.djangoproject.com/" target="_blank"><img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" alt="Badge Django"></a> <a class="badge-link" href="https://developer.mozilla.org/fr/docs/Web/JavaScript" target="_blank"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="Badge JavaScript"></a> <a class="badge-link" href="https://developer.mozilla.org/fr/docs/Web/Guide/HTML/HTML5" target="_blank"><img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="Badge HTML5"></a> <a class="badge-link" href="https://developer.mozilla.org/fr/docs/Web/CSS" target="_blank"><img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="Badge CSS3"></a> <a class="badge-link" href="https://www.docker.com/" target="_blank"><img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Badge Docker"></a> <a class="badge-link" href="https://cloudinary.com/" target="_blank"><img src="https://img.shields.io/badge/Cloudinary-013243?style=flat-square&logo=cloudinary&logoColor=white" alt="Badge Cloudinary"></a> <a class="badge-link" href="https://www.postgresql.org/" target="_blank"><img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white" alt="Badge PostgreSQL"></a> <a class="badge-link" href="https://circleci.com/" target="_blank"><img src="https://img.shields.io/badge/CircleCI-343434?style=flat-square&logo=circleci&logoColor=white" alt="Badge CircleCI"></a> <a class="badge-link" href="https://www.heroku.com/" target="_blank"><img src="https://img.shields.io/badge/Heroku-430098?style=flat-square&logo=heroku&logoColor=white" alt="Badge Heroku"></a></p>
+        </div>
+
+        <div align="center" style="margin-top: 20px;">
+            <h4>Demo Preview</h4>
+            <img src="img/Film-Junkiez-Demo.gif" alt="Film-Junkiez Demo" style="max-width: 100%; height: auto;" />
+        </div>
+
+        <h2>Autres Projets</h2>
+        
+        <h4>Projet 1 : API de Plateforme de Gestion d'Événements</h4>
+        <div class="project-details">
+            <p><strong>Description :</strong> Il s'agit d'une API créée avec Django pour une entreprise événementielle fictive, EpicEvents. L'application permet de gérer les clients, les contrats et les événements via une API REST et une interface d'administration.</p>
+            <p><strong>GitHub Repo :</strong> <a href="https://github.com/Gavin-Humphrey/P12-EpicEvents" target="_blank">API Evenements Epiques</a></p>
+            <p><strong>Stack Technique :</strong> <a class="badge-link" href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Badge Python"></a> <img src="https://img.shields.io/badge/API-REST-brightgreen.svg" alt="Badge API REST"> <a class="badge-link" href="https://www.postman.com/" target="_blank"><img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white" alt="Postman Badge"></a></p>
+        </div>
+
+        <h4>Projet 2 : SoftDesk</h4>
+        <div class="project-details">
+            <p><strong>Description :</strong> Il s'agit d'une API créée avec Django pour une entreprise fictive, SoftDesk. L'application permet de suivre et de gérer des problèmes techniques (système de suivi des problèmes).</p>
+            <p><strong>GitHub Repo :</strong> <a href="https://github.com/Gavin-Humphrey/P10-SoftDesk" target="_blank">SoftDesk</a></p>
+            <p><strong>Stack Technique :</strong> <a class="badge-link" href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Badge Python"></a> <a class="badge-link" href="https://www.djangoproject.com/" target="_blank"><img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" alt="Badge Django"></a> <img src="https://img.shields.io/badge/Django%20REST%20Framework-3.x-brightgreen.svg" alt="Django REST Framework Badge"></p>
+        </div>
+
+        <h4>Projet 3 : Application de Gestion de Tournois d'Échecs</h4>
+        <div class="project-details">
+            <p><strong>Description :</strong> Ce projet consiste à créer une application qui vous permet de créer la structure d'un tournoi d'échecs et d'ajouter des joueurs à une base de données. Le programme utilise l'algorithme de tournoi suisse pour calculer la rotation des joueurs afin d'avoir des matches équilibrés et d'éviter la répétition des matches.</p>
+            <ul>
+                <li>Cette application est écrite dans le **pattern de conception MVC** - Models - Views - Controllers, et les données sont stockées dans la bibliothèque de base de données **TinyDB**.</li>
+                <li>Elle vous permet de : Créer et enregistrer des joueurs, Mettre à jour les scores des joueurs, Créer et enregistrer des tournois, Organiser des tournois, et Revenir à un tournoi inachevé.</li>
+            </ul>
+            <p><strong>GitHub Repo :</strong> <a href="https://github.com/Gavin-Humphrey/Project_4_2022_Chess_Tournament" target="_blank">Application Gestion Tournois Echecs</a></p>
+            <p><strong>Stack Technique :</strong> <a class="badge-link" href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Badge Python"></a> <a class="badge-link" href="https://developer.mozilla.org/fr/docs/Web/Guide/HTML/HTML5" target="_blank"><img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="Badge HTML5"></a> <a class="badge-link" href="https://developer.mozilla.org/fr/docs/Web/CSS" target="_blank"><img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="Badge CSS3"></a></p>
+        </div>
+
+
+        <h2>📊 Statistiques Github</h2>
+        <div align="center">
+            <img src="https://github-readme-stats.vercel.app/api?username=gavin-humphrey&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&exclude_repo=gavin-humphrey&locale=fr" height="165"/>
+            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gavin-humphrey&layout=compact&theme=tokyonight&hide_border=true&count_private=true&exclude_repo=gavin-humphrey&locale=fr" height="165"/>
+        </div>
+
+        <h2>🔥 Série de contributions (sur) GitHub</h2>
+        <div align="center">
+            <img src="https://github-readme-streak-stats.herokuapp.com/?user=gavin-humphrey&theme=tokyonight&hide_border=true&locale=fr"/>
+        </div>
+
+
+        <h2>📫 Contactez-moi</h2>
+        <p>
+            <a href="https://www.linkedin.com/in/gavin-humphrey-b2289122b/" target="_blank"> 
+            <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Badge Linkedin"></a>
+            <br>
+            <strong>gavin.humphrey.pro@gmail.com</strong>
+        </p>
+    </div>
+
+    <!-- <script>
+        function setLanguage(lang) {
+            const sections = document.querySelectorAll('.content-section');
+            const buttons = document.querySelectorAll('.language-switcher button');
+
+            // Hide all content sections
+            sections.forEach(section => {
+                section.style.display = 'none';
+            });
+
+            // Remove active class from all buttons
+            buttons.forEach(button => {
+                button.classList.remove('active');
+            });
+
+            // Show the selected language content
+            const targetContent = document.getElementById('content-' + lang);
+            if (targetContent) {
+                targetContent.style.display = 'block';
+            }
+
+            // Set the active class on the clicked button
+            const targetButton = document.getElementById('btn-' + lang);
+            if (targetButton) {
+                targetButton.classList.add('active');
+            }
+        }
+    </script> -->
+
+    <script>
+        function setLanguage(lang) {
+            document.querySelectorAll('.content-section')
+                .forEach(section => section.style.display = 'none');
+
+            document.getElementById(`content-${lang}`).style.display = 'block';
+
+            document.querySelectorAll('.language-switcher button')
+                .forEach(btn => btn.classList.remove('active'));
+
+            document.getElementById(`btn-${lang}`).classList.add('active');
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            setLanguage('en');
+        });
+    </script>
+
+
+</body>
+</html>
