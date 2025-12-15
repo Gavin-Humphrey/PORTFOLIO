@@ -14,7 +14,7 @@ This project showcases my expertise in Python, Django, REST APIs, and full-stack
 
 | Destination | Link |
 | :--- | :--- |
-| **🚀 Live Portfolio** | [**View My Live Portfolio Site**](https://gavin-humphrey.github.io/PORTFOLIO/Gavin-Portfolio/index.html) |
+| **🚀 Live Portfolio** | [**View My Live Portfolio Site**](https://gavin-humphrey.github.io/PORTFOLIO/index.html) |
 | 📧 Contact | gavin.humphrey.pro@gmail.com |
 | 💼 LinkedIn | [Connect on LinkedIn](https://www.linkedin.com/in/gavin-humphrey-b2289122b/) |
 
